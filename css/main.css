@@ -5,7 +5,40 @@
   --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Main Header */
 .header {
 
   z-index: 2;
+}
+
+/* Toggle Navbar  */
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(225, 247, 231);
+  z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dropdown-nav__container {
+  height: 100vh;
+  padding: 0 1rem;
 }
